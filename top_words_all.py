@@ -13,7 +13,7 @@ from lxml import etree
 # import title_gui
 
 ua = UserAgent1()
-proxypool_url = 'http://192.168.11.209:5555/random'
+proxypool_url = 'http://127.0.0.1:5555/random'
 # print(ua.user_agent())
 
 def get_random_proxy():
